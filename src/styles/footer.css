@@ -1,0 +1,24 @@
+/* styles.css */
+
+/* Base styles */
+.fixed-footer {
+    background-color:#ECF2FF;
+    color: black;
+    text-align: center;
+    padding: 4px;
+    bottom: 13px;
+    width: 100%;
+    transition: transform 0.3s ease; /* Smooth transition for visibility */
+  }
+
+  .image-container
+  {
+    left: 18%;
+    text-align: left;
+    padding: 21px 15px;
+}
+
+.image-det
+{
+  width: 10%;
+}

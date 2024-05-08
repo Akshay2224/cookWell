@@ -1,0 +1,83 @@
+.dashboard-container {
+    display: flex;
+  }
+  .logo {
+    width: 30px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px;
+  }
+  
+
+  .sidebar {
+    width: 300px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    height: 200vh; /* Set height to cover the entire viewport height */
+  }
+  
+  .sidebar-item {
+    display: block;
+    margin-bottom: 30px; /* Adjust the margin-bottom as needed */
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+    font-family: sans-serif; /* Change font family */
+    transition: color 0.3s ease; /* Add a transition effect */
+
+  }
+  
+  .sidebar-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  .main-content.p {
+    font-size: 36px;
+    font-family: sans-serif; 
+  }
+  .navbar-sign {
+    color: #54de54;
+    font-family: Cambria, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.navbar-title {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 32px;
+    
+
+}
+
+.navbar-title a {
+    color: #1A8EFD;
+    letter-spacing: .6px;
+    text-decoration: none;
+}
+
+.sidebar-link:hover {
+    color: lightgray;
+  }
+
+.addRecipeButton {
+  margin-top: 70px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #4CAF50; /* Green border */
+  color: #4CAF50; /* Green text */
+  background-color: #fff; /* White background */
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+  transition: all 0.3s ease;
+}
